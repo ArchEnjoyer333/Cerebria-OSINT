@@ -1,5 +1,7 @@
 # Cerebria
 
+<img width="1729" height="906" alt="image" src="https://github.com/user-attachments/assets/4598c451-81d9-44a7-9b0f-c1f5e37d3846" />
+
 Modular OSINT & reconnaissance dashboard built with FastAPI.
 
 ## Modules
