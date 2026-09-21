@@ -1,0 +1,49 @@
+[app]
+name = "Cerebria."
+version = "v0.0.1"
+status = "Beta"
+
+[server]
+host = "127.0.0.1"
+port = 3000
+
+[welcome]
+title = "Welcome to Cerebria"
+subtitle = "Select an intelligence module from the sidebar to start your investigation."
+
+[links]
+github = "https://github.com"
+docs = "https://github.com"
+
+[theme]
+bg_main = "#0a0a0a"
+bg_sidebar = "#0f0f0f"
+bg_card = "#141414"
+
+[modules_config.ipwhois]
+enabled = true
+
+[modules_config.phone_hlr]
+enabled = true
+
+[modules_config.subdomains]
+enabled = true
+
+[modules_config.username_recon]
+enabled = true
+
+[modules_config.vpn_detector]
+enabled = true
+
+[modules_config.port_scanner]
+enabled = true
+
+[modules_config.minecraft_scanner]
+enabled = true
+name = "Minecraft Recon"
+tag = "MC"
+description = "High-speed multi-stage OSINT scanner for Minecraft server instances & player intelligence"
+probe_timeout = 1.2
+ping_timeout = 3.0
+max_concurrency = 500
+filter_active_only = false
